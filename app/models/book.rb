@@ -15,4 +15,7 @@ class Book < ActiveRecord::Base
       end
     end
   end
+  def title_author
+    "#{title}, #{author}"
+  end
 end
